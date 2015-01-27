@@ -10,6 +10,7 @@
 		<joda-time.version>2.7</joda-time.version>
 		<junit.version>4.12</junit.version>
 		<slf4j.version>1.7.10</slf4j.version>
+		<guava.version>18.0</guava.version>
 	</properties>
 
 	<dependencies>
@@ -42,6 +43,12 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>${slf4j.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
 		</dependency>
 	</dependencies>
 </project>
